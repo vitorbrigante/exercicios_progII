@@ -12,6 +12,7 @@ if (!verificaDataValida(d1, m1, a1)){
     return 0;
 }
 
+printf("Data informada: ");
 imprimeDataExtenso(d1, m1, a1);
 
 if (verificaBissexto(a1)){

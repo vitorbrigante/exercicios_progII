@@ -34,7 +34,7 @@ int verificaDataValida(int dia, int mes, int ano){
  * @param ano Ano da data.
  */
 void imprimeData(int dia, int mes, int ano){
-    printf("%02d/%02d/%d", dia, mes, ano);
+    printf("%02d/%02d/%04d", dia, mes, ano);
 }
 
 /**
@@ -90,7 +90,7 @@ void imprimeMesExtenso(int mes){
  */
 void imprimeDataExtenso(int dia, int mes, int ano){
 
-    printf("Data informada: %d de ", dia);
+    printf("%d de ", dia);
     imprimeMesExtenso(mes);
     printf(" de %d\n", ano);
 }
